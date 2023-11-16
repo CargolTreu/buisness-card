@@ -1,0 +1,78 @@
+body {
+    margin: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #bb3e03);
+}
+
+.avatar {
+    width: 250px;
+    border-radius: 30px;
+}
+
+.card {
+    float: left;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-bottom: 1px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+
+.card2 {
+    width: 250px;
+    float: right;
+    margin-top: 10px;
+    margin-left: auto;
+    padding-bottom: 1px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    overflow: hidden;
+    height: 200px;
+}
+
+.text {
+    padding-top: 5px;
+}
+
+div {
+    width: 400px;
+    height: 150px;
+    position:relative;
+    flex-wrap: wrap;
+    transition: height 0.5s;
+  }
+
+.card:hover {
+    height: 300px;    
+}
+.card2:hover {
+    height: 340px;    
+}
+
+p:hover {
+    color: black;
+}
+
+h3:hover {
+    color: #233d4d;
+}
+
